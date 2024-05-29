@@ -1,9 +1,8 @@
-import { useState } from 'react';
-import { Post } from './Post';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
-import './global.css';
+import { Post } from './components/Post';
 import styles from './App.module.css';
+import './global.css';
 
 function App() {
   return (
@@ -15,10 +14,12 @@ function App() {
         <main>
           <Post 
             author="Pedro"
+            career="Web Developer"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit."
           />
           <Post
             author="Ana"
+            career="Software Engineer"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit."
           />
         </main>
