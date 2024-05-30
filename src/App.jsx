@@ -14,8 +14,8 @@ const posts = [
     },
     content: [
       { type: 'paragraph', content: 'Fala galera 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' },
+      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no curso da RocketSeat. O nome do projeto é Ignite Feed 🚀' },
+      { type: 'link', content: 'jane.design/feed' },
     ],
     publishedAt: new Date('2024-05-30 20:30:00'),
   },
@@ -27,9 +27,9 @@ const posts = [
       role: 'Dev Back-End'
     },
     content: [
-      { type: 'paragraph', content: 'Fala galera 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' },
+      { type: 'paragraph', content: 'Fala pessoal 👋' },
+      { type: 'paragraph', content: 'Finalmente finalizei meu novo site/portfólio. Foi um baita desafio criar todo o design e codar na unha, mas consegui 💪🏻' },
+      { type: 'link', content: 'devoncooper.design' },
     ],
     publishedAt: new Date('2024-05-28 20:00:00'),
   },
