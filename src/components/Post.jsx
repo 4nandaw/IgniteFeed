@@ -5,8 +5,16 @@ import { Comment } from './Comment';
 import { Avatar } from './Avatar';
 import styles from './Post.module.css';
 
+const someone = {
+      author: {
+        avatarUrl: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2960&auto=format&fit=crop&w=500',
+        name: 'Someone'
+      },
+      publishedAt: new Date('2024-06-01 10:00:00'),
+    };
+
 export function Post({ author, publishedAt, content }) {
-    const [comments, setComments] = useState([]);
+    const [comments, setComments] = useState(['Ótimo trabalho! 👏']);
     const [newCommentText, setNewCommentText] = useState('');
     const isNewCommentEmpty = newCommentText.length === 0;
 
@@ -87,9 +95,10 @@ export function Post({ author, publishedAt, content }) {
                     return (
                         <Comment
                             key={comment}
-                            author={author}
+                            author={someone.author}
                             content={comment}
                             onDeleteComment={deleteComment}
+                            publishedAt={someone.publishedAt}
                         />
                     )
                 })}

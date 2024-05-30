@@ -8,7 +8,7 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=2864&auto=format&fit=crop&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      avatarUrl: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2787&auto=format&fit=crop&w=500',
       name: 'Jane Lane',
       role: 'Dev Front-End'
     },
@@ -22,13 +22,13 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2787&auto=format&fit=crop&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      avatarUrl: 'https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?q=80&w=2864&auto=format&fit=crop&w=500',
       name: 'Devon Cooper',
       role: 'Dev Front-End'
     },
     content: [
       { type: 'paragraph', content: 'Fala pessoal 👋' },
-      { type: 'paragraph', content: 'Finalmente finalizei meu novo site/portfólio. Foi um baita desafio criar todo o design e codar na unha, mas consegui 💪🏻' },
+      { type: 'paragraph', content: 'Finalmente finalizei meu novo site/portfólio. Foi um baita desafio criar todo o design e codar na unha, mas consegui 💪' },
       { type: 'link', content: 'devoncooper.design' },
     ],
     publishedAt: new Date('2024-05-28 20:00:00'),
