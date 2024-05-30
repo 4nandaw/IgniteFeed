@@ -24,7 +24,7 @@ const posts = [
     author: {
       avatarUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2787&auto=format&fit=crop&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Devon Cooper',
-      role: 'Dev Back-End'
+      role: 'Dev Front-End'
     },
     content: [
       { type: 'paragraph', content: 'Fala pessoal 👋' },
