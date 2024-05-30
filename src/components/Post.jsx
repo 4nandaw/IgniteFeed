@@ -1,5 +1,6 @@
-import styles from './Post.module.css';
 import { Comment } from './Comment';
+import { Avatar } from './Avatar';
+import styles from './Post.module.css';
 
 export function Post( {author, career} ) {
     const profile = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=2864&auto=format&fit=crop&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
@@ -8,7 +9,7 @@ export function Post( {author, career} ) {
         <article className={styles.post}>
             <header>
                 <div className={styles.author}>
-                    <img src={profile} />
+                    <Avatar src={profile} />
                     <div className={styles.authorInfo}>
                         <strong>{author}</strong>
                         <span>{career}</span>
