@@ -3,8 +3,6 @@
 - O Ignite Feed é um exemplo de feed de rede social.
 - Este projeto foi desenvolvido como parte de um desafio de front-end.
 - O objetivo é criar uma página web na qual os usuários possam visualizar e comentar posts em um feed.
-- Visualize o projeto pronto acessando o seguinte link: https://4nandaw.github.io/IgniteFeed/
-
 
 ## 💻 Funcionalidades Principais
 
